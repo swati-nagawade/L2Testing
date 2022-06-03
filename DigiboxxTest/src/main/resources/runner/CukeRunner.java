@@ -8,7 +8,7 @@ public class CukeRunner {
 
 	@RunWith(Cucumber.class)
 	@CucumberOptions(
-		features ={"C:\\Users\\thora\\eclipse-workspace\\DigiboxxTest\\src\\main\\java\\Feature\\Digiboxx.feature"}
+		features ={"C:\\Users\\thora\\git\\L2Testing\\DigiboxxTest\\src\\main\\java\\Feature\\Digiboxx.feature"}
 		,glue = {"stepdefinitions"},
 		//plugin = {"pretty","test-output"},
 		monochrome =true,
